@@ -1,6 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "rewrites": [
+  "fluid": true,\n  "rewrites": [
     {
       "source": "/api/vision/health",
       "destination": "/api/vision?mode=health"
